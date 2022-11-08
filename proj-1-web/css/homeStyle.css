@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.header{
+    background: greenyellow;
+    padding: 30px;
+    text-align: center;
+    color: rgb(68, 61, 61);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover{
+    background: gray;
+    color:black;
+    font-weight: bold;
+}
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+.card{
+    flex-grow: 1;
+    background-color: rgb(187, 183, 183);
+    height: 300px;
+    margin: 1%;
+}
+@media screen and (max-width:500px) {
+    .navbar{
+        flex-direction: column;
+    }
+    
+}
